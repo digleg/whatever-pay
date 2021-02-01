@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import Nav from './containers/Nav';
+import Title from './containers/Title';
+import Content from './containers/Content';
+import PhoneDisplay from './containers/PhoneDisplay';
+import ContentBottom from './containers/ContentBottom';
+import Footer from './containers/Footer';
+
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="app">
+            <div className="app__wrapper">
+                <div id="home">
+                    <Nav />
+                </div>
+                <Title />
+                <div id="about">
+                    <Content />
+                </div>
+                <PhoneDisplay />
+                <div id="download">
+                    <ContentBottom />
+                </div>
+            </div>
+            <div id="google">
+                <Footer />
+            </div>
+        </div>
+    );
 }
 
 export default App;

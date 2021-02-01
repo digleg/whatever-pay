@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ed05934.chunk.css",
+    "main.js": "/static/js/main.267be622.chunk.js",
+    "main.js.map": "/static/js/main.267be622.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4a7b2a42.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4a7b2a42.js.map",
+    "static/js/2.ce90d9e6.chunk.js": "/static/js/2.ce90d9e6.chunk.js",
+    "static/js/2.ce90d9e6.chunk.js.map": "/static/js/2.ce90d9e6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6ed05934.chunk.css.map": "/static/css/main.6ed05934.chunk.css.map",
+    "static/js/2.ce90d9e6.chunk.js.LICENSE.txt": "/static/js/2.ce90d9e6.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/static/media/bottom_bg_tablet.06ebf011.png",
+    "static/media/bottom_logo.4f586901.png": "/static/media/bottom_logo.4f586901.png",
+    "static/media/demo_1.fab4a63b.png": "/static/media/demo_1.fab4a63b.png",
+    "static/media/demo_2.ffccd2e6.png": "/static/media/demo_2.ffccd2e6.png",
+    "static/media/demo_3.4696ca81.png": "/static/media/demo_3.4696ca81.png",
+    "static/media/demo_4.dc8f6461.png": "/static/media/demo_4.dc8f6461.png",
+    "static/media/demo_5.1a03d236.png": "/static/media/demo_5.1a03d236.png",
+    "static/media/demo_bg.f66b0832.png": "/static/media/demo_bg.f66b0832.png",
+    "static/media/demo_bg_mobile.51d58990.png": "/static/media/demo_bg_mobile.51d58990.png",
+    "static/media/demo_bg_tablet.0b401c38.png": "/static/media/demo_bg_tablet.0b401c38.png",
+    "static/media/download_cn.6ecf5274.png": "/static/media/download_cn.6ecf5274.png",
+    "static/media/download_en.48e83149.png": "/static/media/download_en.48e83149.png",
+    "static/media/feature_1.64b4c85d.png": "/static/media/feature_1.64b4c85d.png",
+    "static/media/feature_2.432aef19.png": "/static/media/feature_2.432aef19.png",
+    "static/media/feature_3.4249d26a.png": "/static/media/feature_3.4249d26a.png",
+    "static/media/feature_4.9ed6c624.png": "/static/media/feature_4.9ed6c624.png",
+    "static/media/logo_big.267b6f2b.png": "/static/media/logo_big.267b6f2b.png",
+    "static/media/App.css": "/static/media/top_bg_tablet.a09b79a0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a7b2a42.js",
+    "static/js/2.ce90d9e6.chunk.js",
+    "static/css/main.6ed05934.chunk.css",
+    "static/js/main.267be622.chunk.js"
+  ]
+}

@@ -1,0 +1,41 @@
+.phoneDisplay__icon {
+    z-index: 1;
+}
+
+.phoneDisplay__demobg {
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+}
+
+.phoneDisplay__demoWrapper {
+    /* left: 0; */
+    /* position: absolute; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow-y: scroll;
+}
+
+.phoneDisplay__demoWrapper > img {
+    margin-top: 18vw;
+    height: 30vw;
+    object-fit: contain;
+}
+
+@media (max-width: 1000px) {
+    .phoneDisplay__demoWrapper > img {
+        margin-top: 18vw;
+        height: 350px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 600px) {
+    .phoneDisplay__demoWrapper > img {
+        margin-top: 18vw;
+        height: 250px;
+        object-fit: contain;
+    }
+}

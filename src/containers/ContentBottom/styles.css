@@ -1,0 +1,67 @@
+.contentButtom {
+    background-image: url(../../images/bottom_bg.png);
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    height: 600px;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.contentButtom_text {
+    width: 100vw;
+    margin-bottom: 100px;
+}
+
+.contentButtom_text > h1 {
+    font-size: 40px;
+    margin-left: 15vw;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.contentButtom_text > h3 {
+    font-size: 18px;
+    margin-left: 15vw;
+}
+
+.contentButtom__download {
+    object-fit: contain;
+    width: 16vw;
+    max-width: 270px;
+    min-width: 180px;
+    margin-bottom: 200px;
+}
+
+@media (max-width: 1000px) {
+    .contentButtom {
+        background-image: url(../../images/bottom_bg_tablet.png);
+    }
+}
+
+@media (max-width: 600px) {
+    .contentButtom {
+        background-image: url(../../images/bottom_bg_mobile.png);
+        height: 400px;
+        padding-top: 200px;
+    }
+    .contentButtom_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contentButtom_text > h1 {
+        margin-left: unset;
+        font-size: 26px;
+    }
+
+    .contentButtom_text > h3 {
+        margin-left: unset;
+        font-size: 14px;
+    }
+}
