@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 To run the develop in local http://localhost:3000 .
 
-### `npm build`
+### `npm run build`
 
 Build the production of this project.
 It will build in to the directory 'build'.
@@ -17,5 +17,6 @@ It will build in to the directory 'build'.
 
 npm -g serve
 serve build
+serve build -p 3000 // change port to 3000
 
 And it will run the production of this project locally.
