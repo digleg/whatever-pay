@@ -11,6 +11,8 @@
     justify-content: center;
     align-items: center;
     padding-top: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .contentButtom_text {
@@ -41,6 +43,13 @@
 @media (max-width: 1000px) {
     .contentButtom {
         background-image: url(../../images/bottom_bg_tablet.png);
+    }
+}
+
+@media (max-width: 1900px) {
+    .contentButtom {
+        background-repeat: unset;
+        background-size: unset;
     }
 }
 

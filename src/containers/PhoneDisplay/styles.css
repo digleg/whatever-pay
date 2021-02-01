@@ -6,12 +6,10 @@
     left: 0;
     position: absolute;
     z-index: -1;
-    width: 100vw;
+    width: 100%;
 }
 
 .phoneDisplay__demoWrapper {
-    /* left: 0; */
-    /* position: absolute; */
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;

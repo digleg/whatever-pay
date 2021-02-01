@@ -5,10 +5,16 @@
 }
 
 .app__wrapper {
-    max-width: 1500px;
+    max-width: 2200px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 60px;
+}
+
+@media (max-width: 1440px) {
+    .app__wrapper {
+        max-width: 1500px;
+    }
 }
 
 @media (max-width: 768px) {
