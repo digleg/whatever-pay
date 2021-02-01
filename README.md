@@ -15,8 +15,8 @@ It will build in to the directory 'build'.
 
 ### `Deploy locally`
 
-npm -g serve
-serve build
+npm -g serve <br/>
+serve build <br/>
 serve build -p 3000 // change port to 3000
 
 And it will run the production of this project locally.
