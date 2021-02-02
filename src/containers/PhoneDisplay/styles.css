@@ -16,6 +16,17 @@
     overflow-y: scroll;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.phoneDisplay__demoWrapper::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.phoneDisplay__demoWrapper {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
 .phoneDisplay__demoWrapper > img {
     margin-top: 18vw;
     height: 30vw;
