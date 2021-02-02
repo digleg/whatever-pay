@@ -1,7 +1,7 @@
 import React from 'react';
 import { withTranslation } from 'react-i18next';
 import logoBig from '../../images/logo_big.png';
-import downloadEN from '../../images/download_cn.png';
+import downloadEN from '../../images/download_en.png';
 import downloadCN from '../../images/download_cn.png';
 import './styles.css';
 
