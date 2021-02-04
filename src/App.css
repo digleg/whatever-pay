@@ -25,7 +25,7 @@
         background-image: url(./images/top_bg_tablet.png);
     }
     .app__wrapper-padding {
-        padding: 0 60px;
+        padding: 0 30px;
     }
 }
 
@@ -34,6 +34,6 @@
         background-image: url(./images/top_bg_mobile.png);
     }
     .app__wrapper-padding {
-        padding: 0 60px;
+        padding: 0 30px;
     }
 }

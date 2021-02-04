@@ -6,10 +6,11 @@
     display: flex;
     justify-content: space-around;
     font-size: 1.9vw;
+    padding: 30px 40px;
 }
 
 .footer-left {
-    flex: 0.33;
+    flex: 0.32;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,15 +23,15 @@
 }
 
 .footer-middle {
-    flex: 0.33;
+    flex: 0.4;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     width: 100%;
     align-items: center;
 }
 
 .footer-right {
-    flex: 0.33;
+    flex: 0.28;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,3 +63,15 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 30px 20px;
+    }
+}
+
+/* @media (max-width: 425px) {
+    .app__wrapper-padding {
+        padding: 0 30px;
+    }
+} */

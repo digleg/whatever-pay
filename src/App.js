@@ -10,15 +10,15 @@ import './App.css';
 function App() {
     return (
         <div className="app">
-            <div className="app__wrapper">
-                <div id="home" className="app__wrapper-padding">
+            <div className="app__wrapper app__wrapper-padding">
+                <div id="home">
                     <Nav />
                 </div>
-                <Title className="app__wrapper-padding" />
-                <div id="about" className="app__wrapper-padding">
+                <Title />
+                <div id="about">
                     <Content />
                 </div>
-                <PhoneDisplay className="app__wrapper-padding" />
+                <PhoneDisplay />
             </div>
             <div id="download">
                 <ContentBottom />
