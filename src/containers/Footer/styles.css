@@ -10,7 +10,7 @@
 }
 
 .footer-left {
-    flex: 0.32;
+    flex: 0.33;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,7 @@
 }
 
 .footer-middle {
-    flex: 0.4;
+    flex: 0.41;
     display: flex;
     justify-content: center;
     width: 100%;
