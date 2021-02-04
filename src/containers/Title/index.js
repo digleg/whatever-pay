@@ -6,6 +6,8 @@ import downloadCN from '../../images/download_cn.png';
 import './styles.css';
 
 function title({ t, i18n }) {
+    const exampleDownloadUrl = 'https://desktop.line-scdn.net/win/new/LineInst.exe';
+
     return (
         <div className="title">
             <div className="title__bottomWrapper">
@@ -16,7 +18,7 @@ function title({ t, i18n }) {
                     <br className="title__bottomWrapper-br" />
                     {t('sub-description2')}
                 </h3>
-                <a href="#download">
+                <a href={exampleDownloadUrl} download>
                     <img
                         className="title__bottomWrapper-download"
                         src={i18n.language === 'en' ? downloadEN : downloadCN}
