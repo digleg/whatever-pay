@@ -8,6 +8,9 @@
     max-width: 2200px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.app__wrapper-padding {
     padding: 0 60px;
 }
 
@@ -21,8 +24,8 @@
     .app {
         background-image: url(./images/top_bg_tablet.png);
     }
-    .app__wrapper {
-        padding: 0 30px;
+    .app__wrapper-padding {
+        padding: 0 60px;
     }
 }
 
@@ -30,7 +33,7 @@
     .app {
         background-image: url(./images/top_bg_mobile.png);
     }
-    .app__wrapper {
-        padding: 0 30px;
+    .app__wrapper-padding {
+        padding: 0 60px;
     }
 }

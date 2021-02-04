@@ -11,19 +11,19 @@ function App() {
     return (
         <div className="app">
             <div className="app__wrapper">
-                <div id="home">
+                <div id="home" className="app__wrapper-padding">
                     <Nav />
                 </div>
-                <Title />
-                <div id="about">
+                <Title className="app__wrapper-padding" />
+                <div id="about" className="app__wrapper-padding">
                     <Content />
                 </div>
-                <PhoneDisplay />
-                <div id="download">
-                    <ContentBottom />
-                </div>
+                <PhoneDisplay className="app__wrapper-padding" />
             </div>
-            <div id="google">
+            <div id="download">
+                <ContentBottom />
+            </div>
+            <div id="footer__wrapper">
                 <Footer />
             </div>
         </div>

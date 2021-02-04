@@ -1,7 +1,7 @@
 .footer {
     background-image: url(../../images/footer_bg.png);
     height: 130px;
-    margin-top: 700px;
+    margin-top: -10px;
     color: #ababab;
     display: flex;
     justify-content: space-around;
@@ -46,7 +46,6 @@
     .footer {
         background-image: url(../../images/footer_bg.png);
         height: 130px;
-        margin-top: 600px;
         padding-top: 30px;
         padding-bottom: 30px;
         color: #ababab;
