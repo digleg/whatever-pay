@@ -6,8 +6,8 @@ import downloadCN from '../../images/download_cn.png';
 import './styles.css';
 
 function title({ t, i18n }) {
+    // TODO: replace this url
     const exampleDownloadUrl = 'https://desktop.line-scdn.net/win/new/LineInst.exe';
-
     return (
         <div className="title">
             <div className="title__bottomWrapper">
