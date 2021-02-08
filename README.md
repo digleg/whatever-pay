@@ -20,3 +20,9 @@ serve build <br/>
 serve build -p 3000 // change port to 3000
 
 And it will run the production of this project locally.
+
+### `Amend Recode`
+
+`20210201` [layout] fix the layout break in 4k screen size
+`20210202` [scroll] hide scroll display
+`20210205` [download] add download example
