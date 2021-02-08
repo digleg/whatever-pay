@@ -23,6 +23,6 @@ And it will run the production of this project locally.
 
 ### `Amend Recode`
 
-`20210201` [layout] fix the layout break in 4k screen size
-`20210202` [scroll] hide scroll display
+`20210201` [layout] fix the layout break in 4k screen size <br/>
+`20210202` [scroll] hide scroll display <br/>
 `20210205` [download] add download example
